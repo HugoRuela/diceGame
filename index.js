@@ -2,8 +2,8 @@ var randomNumber1 = Math.floor(Math.random() * 6)+1; // Random number then multi
 
 var randomNumber2 = Math.floor(Math.random() * 6)+1;
 
-var img1 = "images/dice" + randomNumber1 + ".png"; // Left Player - Player 1;
-var img2 = "images/dice" + randomNumber2 + ".png"; // Right Player - Player 2;
+var img1 = "./dice" + randomNumber1 + ".png"; // Left Player - Player 1;
+var img2 = "./dice" + randomNumber2 + ".png"; // Right Player - Player 2;
 
 var imgRandom1 = document.querySelectorAll("img")[0];
 var imgRandom2 = document.querySelectorAll("img")[1];
